@@ -7,14 +7,14 @@
   },
   "metadata": {
     "description": "Context-sensitive help for your AI product's users. Author and deliver runtime help content the same way you ship code.",
-    "version": "0.1.1"
+    "version": "0.1.2"
   },
   "plugins": [
     {
       "name": "attune-help",
       "source": "./plugins/attune-help",
       "description": "Lightweight runtime reader for .help/ templates. Progressive depth (concept -> task -> reference). No AI keys required. Install alone to consume help content, or pair with attune-author to build it.",
-      "version": "0.3.0",
+      "version": "0.3.1",
       "author": {
         "name": "Smart AI Memory",
         "email": "patrick.roebuck@smartaimemory.com"
