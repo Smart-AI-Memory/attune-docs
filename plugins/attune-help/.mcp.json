@@ -1,9 +1,8 @@
 {
   "mcpServers": {
     "attune-help": {
-      "command": "uv",
+      "command": "uvx",
       "args": [
-        "run",
         "--from",
         "attune-help[plugin]",
         "python",
