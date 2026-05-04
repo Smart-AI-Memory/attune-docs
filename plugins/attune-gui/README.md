@@ -23,34 +23,22 @@ package — no `npm` step):
 - **Jobs** — history with per-feature progress, last-output column,
   Cancel button, and auto-refresh
 
-The legacy React UI is still available at `/legacy/`.
-
 ## Requirements
 
 - Claude Code with Cowork (preview pane support)
 - [uv](https://docs.astral.sh/uv/) on your `PATH`
-- `attune-gui >= 0.3.0` installed (`pip install attune-gui`) **or** the
+- `attune-gui >= 0.5.0` installed (`pip install attune-gui`) **or** the
   repo cloned locally
 
 ## Install
 
-Add the marketplace source to `~/.claude/plugins/known_marketplaces.json`:
-
-```json
-"attune-plugins": {
-  "source": {
-    "source": "github",
-    "repo": "Smart-AI-Memory/attune-gui-plugin"
-  },
-  "installLocation": "~/.claude/plugins/marketplaces/attune-plugins",
-  "lastUpdated": "2026-05-04T00:00:00.000Z"
-}
-```
-
-Then install the plugin:
+This plugin lives in the
+[attune-docs](https://github.com/Smart-AI-Memory/attune-docs) marketplace
+alongside `attune-help` and `attune-author`. From inside Claude Code:
 
 ```
-/plugin install attune-gui@attune-plugins
+/plugin marketplace add Smart-AI-Memory/attune-docs
+/plugin install attune-gui@attune-docs
 ```
 
 ## Usage
