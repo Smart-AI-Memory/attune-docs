@@ -1,6 +1,6 @@
 {
   "name": "attune-gui",
-  "version": "1.1.0",
+  "version": "1.1.1",
   "description": "Launch the attune-gui dashboard (Cowork sidebar — Health · Templates · Specs · Summaries · Living Docs · Commands · Jobs) in the Cowork preview pane. Use /attune-gui or just ask to open the dashboard.",
   "author": {
     "name": "Smart AI Memory",
