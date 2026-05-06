@@ -27,7 +27,7 @@ The user wants the dashboard open. Run the /attune-gui command steps:
        {
          "name": "attune-gui",
          "runtimeExecutable": "uv",
-         "runtimeArgs": ["run", "--directory", "<resolved-path>", "attune-gui"],
+         "runtimeArgs": ["run", "--directory", "<resolved-path>", "attune-gui", "--port", "8000"],
          "port": 8000
        }
      ]

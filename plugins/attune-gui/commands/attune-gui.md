@@ -25,7 +25,7 @@ Launch the attune-gui living-docs dashboard.
          {
            "name": "attune-gui",
            "runtimeExecutable": "uv",
-           "runtimeArgs": ["run", "--directory", "<resolved-path>", "attune-gui"],
+           "runtimeArgs": ["run", "--directory", "<resolved-path>", "attune-gui", "--port", "8000"],
            "port": 8000
          }
        ]
